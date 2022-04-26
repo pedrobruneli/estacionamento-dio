@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+table, th, td{
+    border: 1px solid;
+}
+table{
+    width: 50%;
+    text-align: center;
+}
